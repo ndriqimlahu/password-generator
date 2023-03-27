@@ -1,0 +1,41 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 6rem;
+  background: #000a0e31;
+  padding: 2rem;
+  font-family: "Montserrat";
+}
+
+.copyright {
+  color: #eaebf0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.credits {
+  color: #eaebf0;
+  padding-top: 7px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.credits a {
+  color: #f3cafb;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.credits a:focus {
+  outline: none;
+}
+
+.credits a:hover,
+.credits a:active {
+  color: #c699d3;
+}

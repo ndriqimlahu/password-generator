@@ -1,10 +1,14 @@
+import { useState } from "react";
+
 import classes from "./Footer.module.css";
 
 const Footer = (props) => {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+  
   return (
     <footer className={classes.footer}>
       <div className={classes.copyright}>
-        &copy; 2023 {props.applicationName}. All rights reserved.
+        &copy; {currentYear} {props.applicationName}. All rights reserved.
       </div>
       <div className={classes.credits}>
         Powered by{" "}

@@ -7,6 +7,7 @@ import PasswordResult from "./components/Tool/PasswordResult";
 import PasswordLength from "./components/Tool/PasswordLength";
 import PasswordSettings from "./components/Tool/PasswordSettings";
 import Button from "./components/UI/Button";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   const [enterResult, setResult] = useState("Click on the Generate button");
@@ -50,7 +51,7 @@ function App() {
       setResult(generatedPassword);
       setCheckboxesChecked(true);
     }
-  }
+  };
 
   const handleLengthChange = (event) => {
     setLength(event.target.value);
@@ -96,6 +97,9 @@ function App() {
           handleCheckboxes={checkboxesChecked}
         />
       </Card>
+      <Footer
+        applicationName={"Password Generator"}
+        author={"Ndriçim Lahu"} />
     </Fragment>
   );
 }

@@ -1,0 +1,29 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000a0e31;
+  padding: 2rem;
+  font-family: "Montserrat";
+}
+
+.main-header a {
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.main-header a:focus {
+  outline: none;
+}
+
+.main-header a:hover,
+.main-header a:active {
+  color: #f3cafb;
+}

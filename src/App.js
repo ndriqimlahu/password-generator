@@ -42,8 +42,14 @@ function App() {
       );
     }
 
-    setResult(generatedPassword);
-  };
+    if (!useLowercase && !useUppercase && !useNumber && !useSymbol) {
+      setResult("Turn ON at least one setting");
+      setCheckboxesChecked(false);
+    } else {
+      setResult(generatedPassword);
+      setCheckboxesChecked(true);
+    }
+  }
 
   const handleLengthChange = (event) => {
     setLength(event.target.value);

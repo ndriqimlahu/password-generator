@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 
 import "./App.css";
+import Header from "./components/Layout/Header";
 import Card from "./components/UI/Card";
 import PasswordResult from "./components/Tool/PasswordResult";
 import PasswordLength from "./components/Tool/PasswordLength";
@@ -72,24 +73,30 @@ function App() {
   };
 
   return (
-    <Card>
-      <PasswordResult result={enterResult} />
-      <PasswordLength length={changeLength} handleLength={handleLengthChange} />
-      <PasswordSettings
-        lowercase={useLowercase}
-        handleLowercase={handleLowercaseChange}
-        uppercase={useUppercase}
-        handleUppercase={handleUppercaseChange}
-        number={useNumber}
-        handleNumber={handleNumberChange}
-        symbol={useSymbol}
-        handleSymbol={handleSymbolChange}
-      />
-      <Button
-        generate={generatePassword}
-        handleCheckboxes={checkboxesChecked}
-      />
-    </Card>
+    <Fragment>
+      <Header applicationName={"Password Generator"} />
+      <Card>
+        <PasswordResult result={enterResult} />
+        <PasswordLength
+          length={changeLength}
+          handleLength={handleLengthChange}
+        />
+        <PasswordSettings
+          lowercase={useLowercase}
+          handleLowercase={handleLowercaseChange}
+          uppercase={useUppercase}
+          handleUppercase={handleUppercaseChange}
+          number={useNumber}
+          handleNumber={handleNumberChange}
+          symbol={useSymbol}
+          handleSymbol={handleSymbolChange}
+        />
+        <Button
+          generate={generatePassword}
+          handleCheckboxes={checkboxesChecked}
+        />
+      </Card>
+    </Fragment>
   );
 }
 

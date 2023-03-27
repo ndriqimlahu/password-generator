@@ -43,19 +43,46 @@ function App() {
     }
 
     setResult(generatedPassword);
-  }
+  };
+
+  const handleLengthChange = (event) => {
+    setLength(event.target.value);
+  };
+
+  const handleLowercaseChange = () => {
+    setLowercase(!useLowercase);
+  };
+
+  const handleUppercaseChange = () => {
+    setUppercase(!useUppercase);
+  };
+
+  const handleNumberChange = () => {
+    setNumber(!useNumber);
+  };
+
+  const handleSymbolChange = () => {
+    setSymbol(!useSymbol);
+  };
 
   return (
     <Card>
       <PasswordResult result={enterResult} />
-      <PasswordLength length={changeLength} />
+      <PasswordLength length={changeLength} handleLength={handleLengthChange} />
       <PasswordSettings
         lowercase={useLowercase}
+        handleLowercase={handleLowercaseChange}
         uppercase={useUppercase}
+        handleUppercase={handleUppercaseChange}
         number={useNumber}
+        handleNumber={handleNumberChange}
         symbol={useSymbol}
+        handleSymbol={handleSymbolChange}
       />
-      <Button handleCheckboxes={checkboxesChecked} />
+      <Button
+        generate={generatePassword}
+        handleCheckboxes={checkboxesChecked}
+      />
     </Card>
   );
 }

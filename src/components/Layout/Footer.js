@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import classes from "./Footer.module.css";
 
 const Footer = (props) => {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
-  
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className={classes.footer}>
       <div className={classes.copyright}>

@@ -16,6 +16,35 @@ function App() {
   const [useSymbol, setSymbol] = useState(false);
   const [checkboxesChecked, setCheckboxesChecked] = useState(false);
 
+  const generatePassword = () => {
+    let characterList = "";
+    let generatedPassword = "";
+
+    if (useLowercase) {
+      characterList += "abcdefghijklmnopqrstuvwxyz";
+    }
+
+    if (useUppercase) {
+      characterList += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    }
+
+    if (useNumber) {
+      characterList += "0123456789";
+    }
+
+    if (useSymbol) {
+      characterList += "!@#$%^&*()_+-=[]{};:',./<>?";
+    }
+
+    for (let i = 0; i < changeLength; i++) {
+      generatedPassword += characterList.charAt(
+        Math.floor(Math.random() * characterList.length)
+      );
+    }
+
+    setResult(generatedPassword);
+  }
+
   return (
     <Card>
       <PasswordResult result={enterResult} />

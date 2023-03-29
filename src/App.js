@@ -75,7 +75,7 @@ function App() {
 
   return (
     <Fragment>
-      <Header applicationName={"Password Generator"} />
+      <Header />
       <Card>
         <PasswordResult result={enterResult} />
         <PasswordLength
@@ -97,9 +97,7 @@ function App() {
           handleCheckboxes={checkboxesChecked}
         />
       </Card>
-      <Footer
-        applicationName={"Password Generator"}
-        author={"Ndriçim Lahu"} />
+      <Footer />
     </Fragment>
   );
 }

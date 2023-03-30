@@ -1,20 +1,21 @@
 .nav ul {
-  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
+  list-style: none;
 }
 
 .nav li {
-  margin: 0;
-  margin-left: 2rem;
+  margin: 14px;
+  font-family: "Montserrat";
 }
 
 .nav a {
-  color: #ffffff;
   font-size: 22px;
+  font-family: "Montserrat";
   text-decoration: none;
+  color: #fff;
 }
 
 .nav a:focus {

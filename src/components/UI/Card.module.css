@@ -1,47 +1,42 @@
 .card {
-  margin: 40px 0;
   width: 50em;
   height: 38em;
+  margin: 40px 0;
   padding: 60px 35px;
-  background: #0a0e31;
   border-radius: 35px;
+  background: #0a0e31;
+  font-family: "Montserrat";
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35),
     0 8px 12px rgba(0, 0, 0, 0.15);
-  font-family: "Montserrat";
 }
 
 @media (max-width: 1199px) {
   .card {
     width: 48em;
-    height: 38em;
   }
 }
 
 @media (max-width: 1024px) {
   .card {
     width: 46em;
-    height: 37em;
   }
 }
 
 @media (max-width: 991px) {
   .card {
     width: 44em;
-    height: 37em;
   }
 }
 
 @media (max-width: 768px) {
   .card {
     width: 37em;
-    height: 37em;
   }
 }
 
 @media (max-width: 575px) {
   .card {
     width: 30em;
-    height: 37em;
     padding: 60px 32px;
   }
 }
@@ -49,8 +44,8 @@
 @media (max-width: 425px) {
   .card {
     width: 22em;
-    height: 35em;
-    padding: 40px 28px;
+    height: 37em;
+    padding: 45px 28px;
     border-radius: 26px;
   }
 }
@@ -58,8 +53,8 @@
 @media (max-width: 375px) {
   .card {
     width: 20em;
-    height: 35em;
-    padding: 40px 25px;
+    height: 37em;
+    padding: 40px 24px;
     border-radius: 22px;
   }
 }
@@ -68,8 +63,8 @@
   .card {
     margin: 40px 0;
     width: 18em;
-    height: 35em;
-    padding: 35px 20px;
+    height: 37em;
+    padding: 45px 15px;
     border-radius: 20px;
   }
 }

@@ -9,3 +9,67 @@
     0 8px 12px rgba(0, 0, 0, 0.15);
   font-family: "Montserrat";
 }
+
+@media (max-width: 1199px) {
+  .card {
+    width: 48em;
+    height: 38em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 46em;
+    height: 37em;
+  }
+}
+
+@media (max-width: 991px) {
+  .card {
+    width: 44em;
+    height: 37em;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 37em;
+    height: 37em;
+  }
+}
+
+@media (max-width: 575px) {
+  .card {
+    width: 30em;
+    height: 37em;
+    padding: 60px 32px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    width: 22em;
+    height: 35em;
+    padding: 40px 28px;
+    border-radius: 26px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 20em;
+    height: 35em;
+    padding: 40px 25px;
+    border-radius: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    margin: 40px 0;
+    width: 18em;
+    height: 35em;
+    padding: 35px 20px;
+    border-radius: 20px;
+  }
+}

@@ -1,6 +1,6 @@
 .card {
   width: 50em;
-  height: 38em;
+  height: 40em;
   margin: 40px 0;
   padding: 60px 35px;
   border-radius: 35px;
@@ -44,7 +44,7 @@
 @media (max-width: 425px) {
   .card {
     width: 22em;
-    height: 37em;
+    height: 38em;
     padding: 45px 28px;
     border-radius: 26px;
   }
@@ -63,7 +63,7 @@
   .card {
     margin: 40px 0;
     width: 18em;
-    height: 37em;
+    height: 37.5em;
     padding: 45px 15px;
     border-radius: 20px;
   }

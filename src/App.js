@@ -49,7 +49,7 @@ function App() {
       setCheckboxesChecked(false);
     } else {
       setResult(generatedPassword);
-      setCheckboxesChecked(true);
+      setCheckboxesChecked(!checkboxesChecked);
     }
   };
 
@@ -92,10 +92,7 @@ function App() {
           symbol={useSymbol}
           handleSymbol={handleSymbolChange}
         />
-        <Button
-          generate={generatePassword}
-          handleCheckboxes={checkboxesChecked}
-        />
+        <Button generate={generatePassword} />
       </Card>
       <Footer />
     </Fragment>

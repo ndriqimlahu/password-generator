@@ -42,3 +42,118 @@
 .credits a:active {
   color: #c699d3;
 }
+
+@media (max-width: 1199px) {
+  .copyright {
+    font-size: 14px;
+  }
+  
+  .credits {
+    font-size: 14px;
+  }
+  
+  .credits a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .copyright {
+    font-size: 13.8px;
+  }
+  
+  .credits {
+    font-size: 13.8px;
+  }
+  
+  .credits a {
+    font-size: 13.8px;
+  }
+}
+
+@media (max-width: 991px) {
+  .copyright {
+    font-size: 13.6px;
+  }
+  
+  .credits {
+    font-size: 13.6px;
+  }
+  
+  .credits a {
+    font-size: 13.6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .copyright {
+    font-size: 13.4px;
+  }
+  
+  .credits {
+    font-size: 13.4px;
+  }
+  
+  .credits a {
+    font-size: 13.4px;
+  }
+}
+
+@media (max-width: 575px) {
+  .copyright {
+    font-size: 13.2px;
+  }
+  
+  .credits {
+    font-size: 13.2px;
+  }
+  
+  .credits a {
+    font-size: 13.2px;
+  }
+}
+
+@media (max-width: 425px) {
+  .copyright {
+    font-size: 13px;
+  }
+  
+  .credits {
+    font-size: 13px;
+  }
+  
+  .credits a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .copyright {
+    font-size: 13px;
+  }
+  
+  .credits {
+    font-size: 13px;
+  }
+  
+  .credits a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .copyright {
+    font-size: 12.8px;
+    letter-spacing: 0.8px;
+  }
+  
+  .credits {
+    font-size: 12.8px;
+    letter-spacing: 0.5px;
+  }
+  
+  .credits a {
+    font-size: 12.8px;
+    letter-spacing: 0.5px;
+  }
+}

@@ -4,31 +4,34 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 6rem;
-  background: #000a0e31;
-  padding: 2rem;
+  height: 95px;
+  padding: 30px;
   font-family: "Montserrat";
+  background: #000a0e31;
 }
 
 .copyright {
-  color: #eaebf0;
   font-size: 14px;
+  font-family: "Montserrat";
   text-align: center;
+  color: #eaebf0;
 }
 
 .credits {
-  color: #eaebf0;
   padding-top: 7px;
   font-size: 14px;
+  font-family: "Montserrat";
   text-align: center;
+  color: #eaebf0;
 }
 
 .credits a {
-  color: #f3cafb;
-  margin: 0;
+  margin: 2px;
   font-size: 14px;
+  font-family: "Montserrat";
   text-align: center;
   text-decoration: none;
+  color: #f3cafb;
 }
 
 .credits a:focus {

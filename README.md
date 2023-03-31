@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<p align="center">
+  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/ComingSoon.png" alt="Logo" width="250" height="250">
+  <h3 align="center">Password Generator</h3>
+  <p align="center">
+    Ndriçim Lahu
+    <br>
+    <br>
+    <a href="https://ndriqimlahu.github.io/password-generator">View Website</a>
+    ·
+    <a href="https://github.com/ndriqimlahu/password-generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ndriqimlahu/password-generator/issues">Request Feature</a>
+  </p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Features</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#support">Support</a></li>
+  </ol>
+</details>
 
-## Available Scripts
+## About The Project
 
-In the project directory, you can run:
+`Password Generator` is a web application for generating strong and secure passwords, which contains a combination of lowercase and uppercase letters, numbers, and special symbols. The purpose of this application is to help users create strong and secure passwords that are very less vulnerable to hacking and cyber attacks. 
+When using the Password Generator app, it's important to remember to store the generated password in a secure location, such as a password manager, encrypted file or in a different secure location. Also is a good practice to change passwords regularly to reduce the risk of unauthorized access to your accounts.
+So overall the Password Generator can be accessed from any device with an internet connection on Web App, but with support of the PWA (Progressive Web App) it can be installed on mobile as a standalone Mobile App, making it convenient and accessible to a wide range of users.
 
-### `npm start`
+### Built With
+The web application is built and based on technologies like below:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* HTML5
+* CSS3
+* JavaScript
+* React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
 
-### `npm test`
+* Generate strong and secure passwords ✅
+* Password strength using a slider to ensure password length and security ✅
+* Password with customizable toggle settings ✅
+* Designed to be user-friendly and easy to use ✅
+* Responsive design for better user experience on different screen sizes ✅
+* Supports the PWA and can be installed as standalone app for Mobile devices ✅
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+By getting started with the project, first you need to take a look at the required Prerequisites and after that the Installation steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In order to open this web application is required to have an IDE or Code Editor (Visual Studio Code) and an Browser (Google Chrome).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Download the source code or Clone this repository to your local machine:
+   ```terminal
+   git clone https://github.com/ndriqimlahu/password-generator.git
+   ```
+2. Open the repo folder with your IDE or Code Editor.
+3. After that open the Terminal and type the below command to install the all required dependencies:
+   ```terminal
+   npm install
+   ```
+4. After that in the Terminal, type the below command to run the web server and application:
+    ```terminal
+    npm start
+    ```
+5. Now launch the web application with Browser by typing the URL `http://localhost:3000/` and choose a specific page to open.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To generate a password, choose the desired password length by using the range slider and choose which characters to include. You can include lowercase letters, uppercase letters, numbers, and special characters or symbols.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Once you are satisfied with your settings, click the "Generate Password" button to generate your secure and strong password. After that you can copy your password and store in secure location. If you need to generate a new password, simply just click again in the "Generate Password" button.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions to this project are welcome! If you have any ideas for features or improvements, please create a pull request or open an issue.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-### Code Splitting
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Issues and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you liked this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>

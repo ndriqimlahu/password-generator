@@ -76,6 +76,7 @@
       "purpose": "maskable"
     }
   ],
+  "id": "/password-generator",
   "start_url": "/password-generator",
   "display": "standalone",
   "theme_color": "#0a0e31",

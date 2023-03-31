@@ -66,8 +66,8 @@
     }
   ],
   "id": "/password-generator",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/password-generator",
+  "start_url": "/password-generator",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#0a0e31",

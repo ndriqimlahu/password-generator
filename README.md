@@ -92,6 +92,29 @@ To generate a password, choose the desired password length by using the range sl
 
 Once you are satisfied with your settings, click the "Generate Password" button to generate your secure and strong password. After that you can copy your password and store in secure location. If you need to generate a new password, simply just click again in the "Generate Password" button.
 
+There you can see some useful additional screenshots of how the project looks like and how can be used.
+
+* Home page (Responsive for Desktop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png">
+
+* Home page (Responsive for Big Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.2-Home%20page%20(Responsive%20for%20Big%20Laptop).png">
+
+* Home page (Responsive for Small Laptop)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.3-Home%20page%20(Responsive%20for%20Small%20Laptop).png">
+
+* Home page (Responsive for Big Tablet)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.4-Home%20page%20(Responsive%20for%20Big%20Tablet).png">
+
+* Home page (Responsive for Small Tablet)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.5-Home%20page%20(Responsive%20for%20Small%20Tablet).png">
+
+* Home page (Responsive for Big Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.6-Home%20page%20(Responsive%20for%20Big%20Mobile).png">
+
+* Home page (Responsive for Small Mobile)
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.7-Home%20page%20(Responsive%20for%20Small%20Mobile).png">
+
 ## Contributing
 
 Contributions to this project are welcome! If you have any ideas for features or improvements, please create a pull request or open an issue.

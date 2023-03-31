@@ -35,7 +35,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#support">Support</a></li>
   </ol>
 </details>
 
@@ -97,14 +96,8 @@ Once you are satisfied with your settings, click the "Generate Password" button 
 
 Contributions to this project are welcome! If you have any ideas for features or improvements, please create a pull request or open an issue.
 
+Also, if you liked the project or found it useful, please give a ⭐️ to this repository.
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
-## Support
-
-Issues and feature requests are welcome!
-
-Give a ⭐️ if you liked this project!
-
-Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>

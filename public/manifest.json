@@ -66,7 +66,7 @@
     }
   ],
   "id": "/password-generator",
-  "scope": "/password-generator",
+  "scope": "/",
   "start_url": "/password-generator",
   "display": "standalone",
   "orientation": "portrait",

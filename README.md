@@ -117,7 +117,7 @@ There you can see some useful additional screenshots of how the project looks li
 
 ## Contributing
 
-Contributions to this project are welcome! If you have any ideas for features or improvements, please create a pull request or open an issue.
+Contributions to this project are welcome! If you have any ideas for features or improvements, feel free to create a pull request or open an issue.
 
 Also, if you liked the project or found it useful, please give a ⭐️ to this repository.
 

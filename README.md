@@ -54,13 +54,13 @@ The web application is built and based on technologies like below:
 
 ### Features
 
-* ✅ Generate strong and secure passwords
-* ✅ Password strength using a slider to ensure password length and security
-* ✅ Password with customizable toggle settings
-* ✅ Designed to be user-friendly and easy to use
-* ✅ Responsive design for better user experience on different screen sizes
-* ✅ It can be installed as a standalone application for mobile devices
-* ✅ Supports PWA and can be used in Offline mode as well
+✅ Generate strong and secure passwords
+✅ Password strength using a slider to ensure password length and security
+✅ Password with customizable toggle settings
+✅ Designed to be user-friendly and easy to use
+✅ Responsive design for better user experience on different screen sizes
+✅ It can be installed as a standalone application for desktop and mobile devices
+✅ Supports PWA and can be used in Offline mode as well
 
 ## Getting Started
 

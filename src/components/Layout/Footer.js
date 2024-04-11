@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
       <div className={classes.credits}>
         Powered by{" "}
-        <a href="https://ndriqimlahu.ml" title="Ndriçim Lahu's website" alt="Author Website" rel="noopener noreferrer">
+        <a href="https://ndriqimlahu.github.io" title="Ndriçim Lahu's website" alt="Author Website" rel="noopener noreferrer">
           <strong>Ndriçim Lahu</strong>
         </a>
       </div>

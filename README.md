@@ -1,133 +1,71 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/PasswordGenerator.png" alt="Logo" width="250" height="250">
-  <h3 align="center">Password Generator</h3>
-  <p align="center">
-    Ndriçim Lahu
-    <br>
-    <br>
-    <a href="https://ndriqimlahu.github.io/password-generator">View Website</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/password-generator/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/password-generator/issues">Request Feature</a>
-  </p>
-</p>
+# Password Generator
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#features">Features</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
+**Password Generator** is a web application designed to generate strong and secure passwords, ensuring they are highly resistant to hacking and cyber attacks. By combining lowercase and uppercase letters, numbers, and special symbols, it provides robust passwords that meet modern security standards. The application features a modern design with a user-friendly interface for a smooth and seamless experience, allowing users to easily customize password length, complexity, and additional settings.
 
-## About The Project
+This project is an ideal solution for individuals looking to safeguard their online accounts and sensitive data. It emphasizes the importance of securely storing generated passwords in a password manager, encrypted file, or another secure location to prevent unauthorized access. With its sleek functionality and intuitive design, the application can also be installed as a standalone app on various devices, providing convenient access for creating secure passwords anytime.
 
-`Password Generator` is a web application for generating strong and secure passwords, which contains a combination of lowercase and uppercase letters, numbers, and special symbols. The purpose of this application is to help users create strong and secure passwords that are very less vulnerable to hacking and cyber attacks. 
-When using the Password Generator app, it's important to remember to store the generated password in a secure location, such as a password manager, encrypted file or in a different secure location. Also is a good practice to change passwords regularly to reduce the risk of unauthorized access to your accounts.
-So overall the Password Generator can be accessed from any device with an internet connection on Web App, but with support of the PWA (Progressive Web App) it can be installed on mobile as a standalone Mobile App, making it convenient and accessible to a wide range of users.
+## Built With
 
-### Built With
-The web application is built and based on technologies like below:
+This web application was developed using the following technologies:
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **React**
 
-* HTML5
-* CSS3
-* JavaScript
-* React
+## Features
 
-### Features
+✅ **Strong Password Generation:** Creates robust passwords that combine uppercase and lowercase letters, numbers, and special characters, ensuring maximum security.
 
-✅ Generate strong and secure passwords
+✅ **Customizable Password Length:** Allows users to adjust password length using an intuitive slider, tailoring it to their specific security needs.
 
-✅ Password length by using a slider to ensure the high security
+✅ **Password Complexity Options:** Offers toggle-based settings for including specific character types, enabling users to customize password complexity.
 
-✅ Password strength by using customizable toggle settings
+✅ **Standalone Installation:** Supports installation as a standalone application on desktop and mobile devices for added convenience.
 
-✅ Designed to be user-friendly and easy to use
+✅ **Offline Support:** Functions as a Progressive Web App (PWA), allowing users on mobile devices to generate passwords even without an internet connection.
 
-✅ Responsive design for better user experience on different screen sizes
+✅ **User-Friendly Design:** Features an intuitive and accessible design, making it simple for users to generate passwords effortlessly.
 
-✅ It can be installed as a standalone application for desktop and mobile devices
+✅ **Responsive Design:** Adapts seamlessly to various screen sizes, delivering a consistent experience across desktops, tablets, and mobile devices.
 
-✅ Supports PWA and can be used in Offline mode as well
+## Prerequisites
 
-## Getting Started
+Before starting, ensure the following is installed on your system:
+- **Node.js (Package Manager)**
+  - Download the [Node.js](https://nodejs.org/en/download/package-manager).
+  - Follow the [installation guide](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) to install and configure it properly.
+  - Verify your Node and NPM installation by running the following commands one by one in your terminal:
+    ```
+    node -v
 
-By getting started with the project, first you need to take a look at the required Prerequisites and after that the Installation steps.
+    npm -v
+    ```
+  - If installation fails, refer to the Node.js troubleshooting guide.
 
-### Prerequisites
+## Installation
 
-In order to open this web application is required to have an IDE or Code Editor (Visual Studio Code) and an Browser (Google Chrome).
-
-### Installation
-
-1. Download the source code or Clone this repository to your local machine:
-   ```terminal
+1. Clone or download the repository to your local machine:
+   ```
    git clone https://github.com/ndriqimlahu/password-generator.git
    ```
-2. Open the repo folder with your IDE or Code Editor.
-3. After that open the Terminal and type the below command to install the all required dependencies:
-   ```terminal
+2. Open the repository folder in your preferred IDE or code editor.
+3. Install the dependencies and node modules used in this application by running the following command in your terminal:
+   ```
    npm install
    ```
-4. After that in the Terminal, type the below command to run the web server and application:
-    ```terminal
+4. Start the web server and run the application by running the following command in your terminal:
+    ```
     npm start
     ```
-5. Now launch the web application with Browser by typing the URL `http://localhost:3000/` and choose a specific page to open.
+5. Navigate to `http://localhost:3000/` using any modern web browser to view the web application locally.
 
-## Usage
+## Screenshots
 
-To generate a password, choose the desired password length by using the range slider and choose which characters to include. You can include lowercase letters, uppercase letters, numbers, and special characters or symbols.
+Below you can see some additional useful screenshots of what the web application looks like and how it can be used:
 
-Once you are satisfied with your settings, click the "Generate Password" button to generate your secure and strong password. After that you can copy your password and store in secure location. If you need to generate a new password, simply just click again in the "Generate Password" button.
+- Home page — Generate password
+<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png" align="top" width="96%" height="auto">
 
-There you can see some useful additional screenshots of how the project looks like and how can be used.
+## Support
 
-* Home page (Responsive for Desktop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png">
-
-* Home page (Responsive for Big Laptop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.2-Home%20page%20(Responsive%20for%20Big%20Laptop).png">
-
-* Home page (Responsive for Small Laptop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.3-Home%20page%20(Responsive%20for%20Small%20Laptop).png">
-
-* Home page (Responsive for Big Tablet)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.4-Home%20page%20(Responsive%20for%20Big%20Tablet).png">
-
-* Home page (Responsive for Small Tablet)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.5-Home%20page%20(Responsive%20for%20Small%20Tablet).png">
-
-* Home page (Responsive for Big Mobile)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.6-Home%20page%20(Responsive%20for%20Big%20Mobile).png">
-
-* Home page (Responsive for Small Mobile)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/password-generator/master/preview/01.7-Home%20page%20(Responsive%20for%20Small%20Mobile).png">
-
-## Contributing
-
-Contributions to this project are welcome! If you have any ideas for features or improvements, feel free to create a pull request or open an issue.
-
-Also, if you liked the project or found it useful, please give a ⭐️ to this repository.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+If you find this project useful, please consider giving it a star!
